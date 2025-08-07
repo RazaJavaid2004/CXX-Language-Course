@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string moveallx(string s);
+
+int main() {
+    string s;
+    cout << "Enter the String: ";
+    getline(cin, s);
+
+    cout << moveallx(s);
+
+    return 0;
+}
+
+string moveallx(string s) {
+    if(s.length() == 0) return "";
+
+    char ch = s[0];
+    string ans = moveallx(s.substr(1));
+
+    if(ch == 'x') {
+        return ans + ch;
+    }
+    return ch + ans;
+
+}
