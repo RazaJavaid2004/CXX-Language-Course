@@ -11,7 +11,7 @@ The purpose of this repository is to showcase my progress and understanding of f
 
 ## Repository Structure
 The files are organized into clear directories to make it easy to navigate the different types of work.
-● practice-codes/: A collection of small code snippets and programs for personal practice and experimentation.
+● practice-codes/: A collection of small programs for personal practice and experimentation.
 ● projects/: This directory contains larger, self-contained projects. Each project is in its own subfolder.
 ● labs/: Code and solutions for the weekly laboratory sessions.
 ● assignments/: Solutions to the graded assignments given throughout the semester.
@@ -34,7 +34,7 @@ Throughout this course, I developed a strong foundation in core C programming pr
 
 the Code To compile and run any .c file in this repository, you'll need a C compiler like GCC. 
 
-1.Clone the repository: git clone https://github.com/[Your_Username]/[Your_Repo_Name].git
+1.Clone the repository: git clone https://github.com/RazaJavaid2004/CXX-Language-Course.git
 
 2.Navigate to the file's directory: cd [directory_name]
 
