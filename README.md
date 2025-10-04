@@ -1,48 +1,73 @@
-# NED University | C++ Language Course - Second Semester
-This repository contains all the code and materials from the C Language course, I completed during my first semester at NED University of Engineering and Technology.
+## 📘 NED University | C++ Language Course — Second Semester
 
-It serves as a comprehensive record of my practical work, including:
-- Personal practice codes
-- Projects developed by me
-- Laboratory exercises
-- Assignments given by the course instructor
+This repository contains all code and materials from the **C++ Language course** completed during my second semester at [NED University of Engineering and Technology](https://www.neduet.edu.pk/). It serves as a comprehensive record of my practical work and growth in object-oriented and systems-level programming.
 
-The purpose of this repository is to showcase my progress and understanding of fundamental C programming concepts.
+---
 
-## Repository Structure
-The files are organized into clear directories to make it easy to navigate the different types of work.
-- practice-codes/: A collection of small programs for personal practice and experimentation.
-- projects/: This directory contains larger, self-contained projects. Each project is in its own subfolder.
-- labs/: Code and solutions for the weekly laboratory sessions.
-- assignments/: Solutions to the graded assignments given throughout the semester.
+## 📂 Repository Structure
 
-## Projects
-This section highlights the main projects I completed.
-- Encryption / Decryption Using DES, RSA, AES Algorithms
+The content is organized into modular directories for clarity and ease of navigation:
 
-## Key Learning Outcomes
-Throughout this course, I developed a strong foundation in core C programming principles, including: 
-- Fundamental Syntax: Variables, data types, and operators.
-- Control Structures: if, else, switch, for, while, and do-while loops.
-- Functions: Creating and using functions, passing arguments, and understanding scope.
-- Arrays and Strings: Working with one-dimensional and two-dimensional arrays, and performing string manipulation.
-- Pointers: Understanding memory addresses, pointer arithmetic, and dynamic memory allocation (malloc, calloc, realloc, free).
-- Structures and Unions: Defining and using custom data types.
-- File I/O: Reading from and writing to files.
+- `practice-codes/` — Small programs for personal experimentation and concept reinforcement  
+- `projects/` — Larger, self-contained projects, each in its own subfolder  
+- `labs/` — Weekly lab exercises and solutions  
+- `assignments/` — Graded coursework submitted during the semester  
 
-## How to Run 
-To compile and run any .c file in this repository, you'll need a C compiler like GCC. 
+---
 
-1.Clone the repository: git clone https://github.com/RazaJavaid2004/CXX-Language-Course.git
+## 🔐 Highlighted Project
 
-2.Navigate to the file's directory: cd [directory_name]
+- **Encryption & Decryption Toolkit** — Implemented cryptographic algorithms including:
+  - DES (Data Encryption Standard)  
+  - RSA (Rivest–Shamir–Adleman)  
+  - AES (Advanced Encryption Standard)  
 
-3.Compile the code: gcc -o myprogram myprogram.c
+This project reflects my early interest in cybersecurity and cryptographic protocol design.
 
-4.Run the executable: ./myprogram
+---
 
-## License
-License This project is licensed under the MIT License. See the LICENSE file for details.
+## 🎯 Key Learning Outcomes
 
-## Author
-Author Muhammad Raza
+Throughout this course, I built a strong foundation in:
+
+- **Syntax & Data Types** — Variables, operators, and type declarations  
+- **Control Structures** — `if`, `else`, `switch`, loops (`for`, `while`, `do-while`)  
+- **Functions** — Definition, argument passing, and scope management  
+- **Arrays & Strings** — 1D/2D arrays and string manipulation  
+- **Pointers & Memory** — Pointer arithmetic and dynamic memory (`malloc`, `calloc`, `realloc`, `free`)  
+- **Structures & Unions** — Custom data types for modular design  
+- **File I/O** — Reading from and writing to files for persistent storage  
+
+---
+
+## 🛠️ How to Run
+
+To compile and run any `.cpp` file in this repository:
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/RazaJavaid2004/CXX-Language-Course.git
+
+# Step 2: Navigate to the desired directory
+cd [directory_name]
+
+# Step 3: Compile the code
+g++ -o myprogram myprogram.cpp
+
+# Step 4: Run the executable
+./myprogram
+```
+
+Ensure `g++` (GNU C++ Compiler) is installed and added to your system path.
+
+---
+
+## 🔐 License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to fork, modify, and contribute.
+
+---
+
+## ✍️ Author
+
+Developed and maintained by [Muhammad Raza](https://github.com/RazaJavaid2004)
